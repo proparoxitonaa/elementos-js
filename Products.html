@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos - Seu E-commerce de Camisas de Time</title>
 
-    <!-- Bootstrap CSS via CDN -->
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <style>
-        /* Paleta de Cores */
+        
         :root {
             --primary-color: #007bff; /* Azul */
             --secondary-color: #6c757d; /* Cinza */
@@ -19,13 +19,13 @@
             --product-card-border: #dee2e6; /* Cor da borda do card de produto */
         }
 
-        /* Estilos Gerais */
+        
         body {
             background-color: var(--background-color);
             padding-top: 56px; /* Altura da barra de navegação */
         }
 
-        /* Barra de Navegação */
+        
         .navbar {
             background-color: var(--navbar-background-color);
         }
@@ -34,13 +34,13 @@
             color: #fff !important;
         }
 
-        /* Seção de Produtos */
+        
         .products-section {
             padding: 20px;
             margin-top: 30px;
         }
 
-        /* Estilos específicos para a lista de produtos */
+        
         .product-list {
             display: flex;
             flex-wrap: wrap;
@@ -89,7 +89,7 @@
 </head>
 <body>
 
-    <!-- Barra de Navegação -->
+   
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Seu E-commerce</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,7 +110,7 @@
         </div>
     </nav>
 
-    <!-- Seção de Produtos -->
+    
     <div class="container products-section">
         <div class="row">
             <!-- Filtros -->
@@ -121,31 +121,31 @@
                     <button class="btn btn-secondary" onclick="clearFilters()">Limpar Filtros</button>
                 </div>
             </div>
-            <!-- Lista de Produtos -->
+            
             <div class="col-md-9">
                 <div class="product-list">
-                    <!-- Produto 1 -->
+                    
                     <componente-novo product-img="https://shoppingdabola.com.br/wp-content/uploads/2023/06/RMCFMZ0127_01_7f8616a0-9006-4c4f-829a-c9ad552fa644_500x480-1.png"
                                      product-title="Real madrid"
                                      product-description="Camisa real madrid 23/24"
                                      product-price="129,90"
                                      product-link="Detalhes do produto 1.html">
                     </componente-novo>
-                    <!-- Produto 2 -->
+                    
                     <componente-novo product-img="https://d2r9epyceweg5n.cloudfront.net/stores/002/822/562/products/camisa-barcelona-i-23-24-nike-vermelho-azul1-f7ee8c3a83190e033816868416190356-640-0.png"
                                      product-title="Barcelona"
                                      product-description="Camisa Barcelona 23/24"
                                      product-price="189,99"
                                      product-link="Detalhes do produto 3.html">
                     </componente-novo>
-                    <!-- Produto 3 -->
+                    
                     <componente-novo product-img="https://www.lojadssports.com.br/cdn/shop/files/PJE4lq1YpqDBLqn_800x.jpg?v=1691946060.jpg"
                                      product-title="Al Hilal"
                                      product-description="Camisa Al Hilal 23/24"
                                      product-price="150,00"
                                      product-link="Detalhes do produto 4.html">
                     </componente-novo>
-                    <!-- Produto 4 -->
+                    
                     <componente-novo product-img="https://imgcentauro-a.akamaihd.net/900x900/M0YQPX04/camisa-manchester-city-23-24-puma-home-torcedor-masculina-img.jpg"
                                      product-title="Manchester City"
                                      product-description="Camisa Man. City 23/24"
@@ -157,12 +157,12 @@
         </div>
     </div>
 
-    <!-- Bootstrap JavaScript via CDN (jQuery and Popper.js required) -->
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Script do componente personalizado -->
+    
     <script src="componente-novo.js"></script>
 </body>
 </html>
